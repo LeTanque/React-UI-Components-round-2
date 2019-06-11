@@ -1,0 +1,26 @@
+
+
+.row-numpad {
+    display: flex;
+    width: 100%;
+    .white-number {
+        background-color: $white;
+        border: 1px solid $black;
+        width: 25%;
+    }
+    .white-zero {
+        background-color: $white;
+        border: 1px solid $black;
+        width: 77%;
+    }
+    .red-number {
+        background-color: $red;
+        border: 1px solid $black;
+        width: 25%;
+    }
+    .button-number {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+    }
+}
